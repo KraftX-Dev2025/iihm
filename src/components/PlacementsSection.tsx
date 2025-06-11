@@ -17,9 +17,9 @@ export default function PlacementsSection() {
                     <div>
                         <h3 className="text-3xl font-bold text-neutral-900 text-center mb-8">
                             Our International Tie-Ups
-                        </h3>
+                        </h3>{" "}
                         <div className="bg-white p-8 rounded-xl shadow-lg">
-                            <div className="grid grid-cols-2 md:grid-cols-3 gap-8 items-center">
+                            <div className="grid grid-cols-2 md:grid-cols-3 gap-4 items-center">
                                 {[
                                     {
                                         name: "University of West London",
@@ -50,7 +50,7 @@ export default function PlacementsSection() {
                                         <img
                                             src={partner.image}
                                             alt={partner.name}
-                                            className="h-20 mx-auto grayscale hover:grayscale-0 transition-all duration-300 hover:scale-110"
+                                            className="h-28 mx-auto transition-all duration-300 hover:scale-110"
                                         />
                                     </div>
                                 ))}
@@ -62,9 +62,9 @@ export default function PlacementsSection() {
                     <div>
                         <h3 className="text-3xl font-bold text-neutral-900 text-center mb-8">
                             Our Global Placements
-                        </h3>
+                        </h3>{" "}
                         <div className="bg-gradient-to-br from-red-50 to-blue-50 p-8 rounded-xl shadow-lg">
-                            <div className="grid grid-cols-2 md:grid-cols-3 gap-8 items-center">
+                            <div className="grid grid-cols-2 md:grid-cols-3 gap-4 items-center">
                                 {[
                                     {
                                         name: "Hyatt Regency",
@@ -111,7 +111,7 @@ export default function PlacementsSection() {
                                         <img
                                             src={hotel.image}
                                             alt={hotel.name}
-                                            className="h-16 mx-auto grayscale hover:grayscale-0 transition-all duration-300 hover:scale-110"
+                                            className="h-24 mx-auto transition-all duration-300 hover:scale-110"
                                         />
                                     </div>
                                 ))}

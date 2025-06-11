@@ -132,32 +132,17 @@ export default function AwardsSection() {
                         <img
                             src="https://iihm.ac.in/hotel_management/images/l1.png"
                             alt="CNN"
-                            className="h-16 opacity-90 hover:opacity-100 transition-all hover:scale-110"
+                            className="h-24 opacity-90 hover:opacity-100 transition-all hover:scale-110"
                         />
                         <img
                             src="https://iihm.ac.in/hotel_management/images/l2.png"
                             alt="Forbes India"
-                            className="h-16 opacity-90 hover:opacity-100 transition-all hover:scale-110"
+                            className="h-24 opacity-90 hover:opacity-100 transition-all hover:scale-110"
                         />
                         <img
                             src="https://iihm.ac.in/hotel_management/images/l3.png"
                             alt="The Economic Times"
-                            className="h-16 opacity-90 hover:opacity-100 transition-all hover:scale-110"
-                        />
-                        <img
-                            src="https://iihm.ac.in/hotel_management/images/l4.png"
-                            alt="Hindustan Times"
-                            className="h-16 opacity-90 hover:opacity-100 transition-all hover:scale-110"
-                        />
-                        <img
-                            src="https://iihm.ac.in/hotel_management/images/l5.png"
-                            alt="Telegraph"
-                            className="h-16 opacity-90 hover:opacity-100 transition-all hover:scale-110"
-                        />
-                        <img
-                            src="https://iihm.ac.in/hotel_management/images/l6.png"
-                            alt="ABP Ananda"
-                            className="h-16 opacity-90 hover:opacity-100 transition-all hover:scale-110"
+                            className="h-24 opacity-90 hover:opacity-100 transition-all hover:scale-110"
                         />
                     </div>
                 </div>

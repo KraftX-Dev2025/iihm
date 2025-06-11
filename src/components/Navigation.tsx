@@ -1,5 +1,3 @@
-import { useState } from "react";
-
 interface NavigationProps {
     activeSection: string;
     isMenuOpen: boolean;

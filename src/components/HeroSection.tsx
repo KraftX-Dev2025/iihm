@@ -144,16 +144,7 @@ export default function HeroSection({ scrollToSection }: HeroSectionProps) {
                             </p>
                         </form>
                     </div>
-                </div>
-            </div>
-
-            {/* Chef Image positioned absolutely */}
-            <div className="absolute bottom-0 right-20 hidden xl:block">
-                <img
-                    src="https://iihm.ac.in/hotel_management/images/chef.png"
-                    alt="Chef"
-                    className="h-96 w-auto drop-shadow-2xl"
-                />
+                </div>{" "}
             </div>
         </section>
     );
